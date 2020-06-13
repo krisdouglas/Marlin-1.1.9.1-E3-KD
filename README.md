@@ -7,12 +7,13 @@ This is a modified version of the Marlin 1.1.9.1 release that has been optimised
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 
 ## Main Tweaks
-- 3x3 Auto Bed Levelling
+- 3x3 Auto Bed Levelling, ideal for a glass bed, but you might want to increase this to 5x5 for buildtak/ magnetic beds.
 - Slightly increased ABL second test speed, still performs well
 - Removed broken power loss recovery
 - Light LCD Menus
 - BLTouch/ ABL related menus added
-- Babystepping set to 0.005
+- Negative Z-Offset enabled. 
+- Babystepping set to 0.005 - This is really as accurate as you'd ever need.
 - All Serial/ SD is working - Tested with Octoprint and direct from Cura 4.6.1
 - Tweaked bed size from original config in 1.1.9.1 firmware
 - Thermal runaway protection is enabled and tested
