@@ -2,9 +2,25 @@
 
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
-This is a modified version of the Marlin 1.1.9.1 bugfix release that has been optimised for the Creality Ender-3. Below are links relating to the Marlin project.
+This is a modified version of the Marlin 1.1.9.1 release that has been optimised for the Creality Ender-3 with a BLTouch.
 
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
+
+## Main Tweaks
+- 3x3 Auto Bed Levelling
+- Slightly increased ABL second test speed, still performs well
+- Removed broken power loss recovery
+- Light LCD Menus
+- BLTouch/ ABL related menus added
+- Babystepping set to 0.005
+- All Serial/ SD is working - Tested with Octoprint and direct from Cura 4.6.1
+- Tweaked bed size from original config in 1.1.9.1 firmware
+- Thermal runaway protection is enabled and tested
+- Currently building with 96% of the flash in use so there's room for small extras.
+- Fixed home offsets based on most recent release of the (non-pro) Ender 3. 
+
+## Building
+You can build this from the Arduino IDE using the many guides available on the internet. 
 
 ## License
 
