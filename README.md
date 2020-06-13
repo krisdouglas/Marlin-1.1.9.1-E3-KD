@@ -2,7 +2,7 @@
 
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
-This is a modified version of the Marlin 1.1.9.1 release that has been optimised for the Creality Ender-3 with a BLTouch.
+This is a modified version of the Marlin 1.1.9.1 release that has been optimised for the Creality Ender-3 with a BLTouch v3.1.
 
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 
