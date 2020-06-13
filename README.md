@@ -1,39 +1,12 @@
 # Marlin 3D Printer Firmware
 
-[![Build Status](https://travis-ci.org/MarlinFirmware/Marlin.svg?branch=RCBugFix)](https://travis-ci.org/MarlinFirmware/Marlin)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/2224/badge.svg)](https://scan.coverity.com/projects/2224)
-
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
+
+This is a modified version of the Marlin 1.1.9.1 bugfix release that has been optimised for the Creality Ender-3. Below are links relating to the Marlin project.
 
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
-## Bugfix Branch
-
-__Not for production use. Use with caution!__
-
-This branch is used to accumulate patches to the latest 1.1.x release version. Periodically this branch will form the basis for the next minor 1.1.x release.
-
-Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases). (The latest tagged release of Marlin is version 1.1.9.)
-
-## Recent Changes
-- Internally always use native machine space
-- Initial UBL LCD Menu
-- New optimized G-code parser singleton
-- Initial `M3`/`M4`/`M5` Spindle and Laser support
-- Added `M421 Q` to offset a mesh point
-- Refinements to `G26` and `G33`
-- Added `M80 S` to query the power state
-- "Cancel Print" now shuts off heaters
-- Added `EXTRAPOLATE_BEYOND_GRID` option for mesh-based leveling
-
-## Submitting Patches
-
-Proposed patches should be submitted as a Pull Request against this branch ([bugfix-1.1.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x)).
-
-- This branch is for fixing bugs and integrating any new features for the duration of the Marlin 1.1.x life-cycle. We've opted for a simplified branch structure while we work on the maintainability and encapsulation of code modules. Version 2.0 and beyond should improve on separation of bug fixes and cutting-edge development.
-- Follow the proper coding style to gain points with the maintainers. See our [Coding Standards](http://marlinfw.org/docs/development/coding_standards.html) page for more information.
-- Please submit your questions and concerns to the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues). The "naive" question is often the one we forget to ask.
 
 ### [RepRap.org Wiki Page](http://reprap.org/wiki/Marlin)
 
